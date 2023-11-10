@@ -1,7 +1,7 @@
 import { Config, Provide } from "@midwayjs/core";
 import { CoolTxConfig } from './interface';
 import * as tencentcloud from "tencentcloud-sdk-nodejs";
-import { CoolCommException } from "@cool-midway/core";
+import { CoolCommException } from "@zyws-midway/core";
 
 /**
  * 腾讯云短信
@@ -13,7 +13,7 @@ export class SmsTx {
 
     /**
      * 配置
-     * @param config 
+     * @param config
      */
     setConfig(config: CoolTxConfig) {
         this.config = config;
@@ -24,7 +24,7 @@ export class SmsTx {
      * @param phone 手机号
      * @param params 参数
      * @param config  signName 签名 template 模板
-     * @returns 
+     * @returns
      */
     async send(phone: string, params: string[], config?: {
         signName: string;

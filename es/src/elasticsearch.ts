@@ -12,7 +12,7 @@ import {
 import { COOL_ES_KEY, EsConfig } from './decorator/elasticsearch';
 import { listModule } from '@midwayjs/decorator';
 import { IMidwayApplication } from '@midwayjs/core';
-import { CoolCoreException, CoolEventManager } from '@cool-midway/core';
+import { CoolCoreException, CoolEventManager } from '@zyws-midway/core';
 import { ILogger } from '@midwayjs/logger';
 import { Client } from '@elastic/elasticsearch';
 import * as _ from 'lodash';

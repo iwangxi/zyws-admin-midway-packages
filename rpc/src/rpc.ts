@@ -11,7 +11,7 @@ import {
 } from '@midwayjs/decorator';
 import { ServiceBroker } from 'moleculer';
 import { CoolRpcConfig } from '.';
-import { CoolCoreException, CoolValidateException } from '@cool-midway/core';
+import { CoolCoreException, CoolValidateException } from '@zyws-midway/core';
 import { v1 as uuid } from 'uuid';
 import { BaseRpcService } from './service/base';
 import { CurdOption, MOLECYLER_KEY } from './decorator/rpc';

@@ -1,4 +1,4 @@
-import { CoolCommException } from '@cool-midway/core';
+import { CoolCommException } from '@zyws-midway/core';
 import {
   Provide,
   Scope,

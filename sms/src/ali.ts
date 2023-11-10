@@ -1,7 +1,7 @@
 import * as Core from '@alicloud/pop-core';
 import { Config, Provide } from "@midwayjs/core";
 import { CoolSmsAliConfig } from './interface';
-import { CoolCommException } from '@cool-midway/core';
+import { CoolCommException } from '@zyws-midway/core';
 
 /**
  * 阿里云短信
@@ -13,7 +13,7 @@ export class SmsAli {
 
     /**
      * 配置
-     * @param config 
+     * @param config
      */
     setConfig(config: CoolSmsAliConfig) {
         this.config = config;
@@ -24,7 +24,7 @@ export class SmsAli {
      * @param phone 手机号
      * @param params 参数
      * @param config  signName 签名 template 模板
-     * @returns 
+     * @returns
      */
     async send(phone, params: {
         [key: string]: string;

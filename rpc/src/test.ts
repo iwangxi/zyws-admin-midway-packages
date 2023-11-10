@@ -1,5 +1,5 @@
 import { Controller, Inject, Post, Provide } from '@midwayjs/decorator';
-import { BaseController } from '@cool-midway/core';
+import { BaseController } from '@zyws-midway/core';
 import { CoolRpc } from './rpc';
 
 /**

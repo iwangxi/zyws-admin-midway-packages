@@ -1,4 +1,4 @@
-import { CoolCommException } from '@cool-midway/core';
+import { CoolCommException } from '@zyws-midway/core';
 import { Config, Init, Provide, Scope, ScopeEnum } from '@midwayjs/decorator';
 import * as cid from '@4a/cid';
 import { CoolWxPayConfig } from './interface';

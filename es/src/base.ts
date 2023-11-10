@@ -1,4 +1,4 @@
-import { CoolEventManager } from '@cool-midway/core';
+import { CoolEventManager } from '@zyws-midway/core';
 import { Client } from '@elastic/elasticsearch';
 import { WaitForActiveShards } from '@elastic/elasticsearch/lib/api/types';
 import { Inject, Logger } from '@midwayjs/decorator';
@@ -93,7 +93,7 @@ export class BaseEsIndex {
 
   /**
    * 对象转body
-   * @param condition 
+   * @param condition
    */
   async objToBody(condition: any){
     const body = {
@@ -115,9 +115,9 @@ export class BaseEsIndex {
 
   /**
    * 按字段值查找
-   * @param condition 
-   * @param size 
-   * @returns 
+   * @param condition
+   * @param size
+   * @returns
    */
   async findBy(condition: any, size?: number){
     const body = await this.objToBody(condition)
@@ -126,9 +126,9 @@ export class BaseEsIndex {
 
   /**
    * 按字段值分页查找
-   * @param condition 
-   * @param page 
-   * @param size 
+   * @param condition
+   * @param page
+   * @param size
    */
   async findPageBy(condition: any, page?: number, size?: number){
     const body = await this.objToBody(condition)

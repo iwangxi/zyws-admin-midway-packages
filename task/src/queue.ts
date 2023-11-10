@@ -35,7 +35,7 @@ export class CoolQueueHandle {
   @Init()
   async init() {
     if (!this.redisConfig) {
-      this.coreLogger.error('@cool-midway/task组件 redis未配置');
+      this.coreLogger.error('@zyws-midway/task组件 redis未配置');
     }
 
     await this.scan();

@@ -1,5 +1,5 @@
 {
-  "name": "@cool-midway/rpc",
+  "name": "@zyws-midway/rpc",
   "version": "7.0.0",
   "description": "cool-js.com rpc 微服务",
   "main": "dist/index.js",
@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@cool-midway/core": "^7.0.0",
+    "@zyws-midway/core": "^7.0.0",
     "@midwayjs/cli": "^2.0.9",
     "@midwayjs/core": "^3.9.0",
     "@midwayjs/decorator": "^3.9.0",

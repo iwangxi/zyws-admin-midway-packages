@@ -1,6 +1,6 @@
 {
-  "name": "@cool-midway/iot",
-  "version": "7.0.0",
+  "name": "@zyws-midway/iot",
+  "version": "7.0.1",
   "description": "cool-js.com iot模块",
   "main": "dist/index.js",
   "typings": "index.d.ts",
@@ -30,7 +30,7 @@
     "index.d.ts"
   ],
   "devDependencies": {
-    "@cool-midway/core": "^7.0.0",
+    "@zyws-midway/core": "^7.0.0",
     "@midwayjs/cli": "^2.0.9",
     "@midwayjs/core": "^3.9.0",
     "@midwayjs/decorator": "^3.9.0",
@@ -44,7 +44,7 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "@cool-midway/mqemitter-redis": "^6.0.0",
+    "@zyws-midway/mqemitter-redis": "^7.0.0",
     "aedes": "^0.48.1",
     "aedes-persistence-redis": "^9.0.2",
     "aedes-server-factory": "^0.2.1"

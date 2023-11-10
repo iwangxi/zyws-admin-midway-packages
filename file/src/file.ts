@@ -8,7 +8,7 @@ import {
   ScopeEnum,
 } from '@midwayjs/decorator';
 import { Mode, CoolFileConfig, MODETYPE, CLOUDTYPE } from './interface';
-import { CoolCommException } from '@cool-midway/core';
+import { CoolCommException } from '@zyws-midway/core';
 import * as moment from 'moment';
 import { v1 as uuid } from 'uuid';
 import * as path from 'path';

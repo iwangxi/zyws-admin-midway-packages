@@ -7,7 +7,7 @@ import {
   CurdOption,
   ERRINFO,
   EVENT,
-} from '@cool-midway/core';
+} from '@zyws-midway/core';
 import { Brackets, In, Repository, SelectQueryBuilder } from 'typeorm';
 import { CoolCloudDb } from '../db';
 import * as _ from 'lodash';

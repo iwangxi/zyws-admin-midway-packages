@@ -1,5 +1,5 @@
 {
-  "name": "@cool-midway/pay",
+  "name": "@zyws-midway/pay",
   "version": "7.0.0",
   "description": "cool-js.com 支付 微信 支付宝",
   "main": "dist/index.js",
@@ -28,7 +28,7 @@
     "url": "https://cool-js.com"
   },
   "devDependencies": {
-    "@cool-midway/core": "^7.0.0",
+    "@zyws-midway/core": "^7.0.0",
     "@midwayjs/cli": "^2.0.9",
     "@midwayjs/core": "^3.9.0",
     "@midwayjs/decorator": "^3.9.0",

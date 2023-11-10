@@ -1,7 +1,7 @@
 import { Config, Init, Provide, App } from '@midwayjs/decorator';
 import { Brackets } from 'typeorm';
 import * as _ from 'lodash';
-import { CoolValidateException, ERRINFO } from '@cool-midway/core';
+import { CoolValidateException, ERRINFO } from '@zyws-midway/core';
 import { QueryOp } from '../decorator/rpc';
 import { IMidwayApplication, Inject } from '@midwayjs/core';
 import * as SqlString from 'sqlstring';

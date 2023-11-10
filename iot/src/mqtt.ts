@@ -69,7 +69,7 @@ export class CoolMqttServe {
     let option = {} as AedesOptions;
     // cluster模式下必须配置redis
     if (redis) {
-      const mqredis = require('@cool-midway/mqemitter-redis');
+      const mqredis = require('@zyws-midway/mqemitter-redis');
       const mq = mqredis(redis);
       option.id = randomUUID();
       // redis cluster模式

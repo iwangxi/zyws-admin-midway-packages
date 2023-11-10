@@ -1,6 +1,6 @@
 import { Config, Provide } from "@midwayjs/core";
 import { CoolYpConfig } from "./interface";
-import { CoolCommException } from "@cool-midway/core";
+import { CoolCommException } from "@zyws-midway/core";
 import axios from 'axios';
 
 /**
@@ -13,7 +13,7 @@ export class SmsYp {
 
     /**
      * 配置
-     * @param config 
+     * @param config
      */
     setConfig(config: CoolYpConfig) {
         this.config = config;
@@ -24,7 +24,7 @@ export class SmsYp {
     * @param phones 手机号 数组，需要加国家码如 ["+8612345678901"]
     * @param params 参数
     * @param config  signName 签名 template 模板
-    * @returns 
+    * @returns
     */
     async send(phones: string, params: {
         [key: string]: string;
