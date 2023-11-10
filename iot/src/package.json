@@ -1,6 +1,6 @@
 {
   "name": "@zyws-midway/iot",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "description": "cool-js.com iot模块",
   "main": "index.js",
   "typings": "index.d.ts",
@@ -46,7 +46,7 @@
   "dependencies": {
     "aedes": "^0.48.1",
     "aedes-persistence-redis": "^9.0.2",
-    "@zyws-midway/mqemitter-redis": "^6.0.0",
+    "@zyws-midway/mqemitter-redis": "^7.0.0",
     "aedes-server-factory": "^0.2.1"
   }
 }

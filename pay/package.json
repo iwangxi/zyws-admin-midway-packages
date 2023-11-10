@@ -1,6 +1,6 @@
 {
   "name": "@zyws-midway/pay",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "cool-js.com 支付 微信 支付宝",
   "main": "dist/index.js",
   "typings": "index.d.ts",
